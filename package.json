@@ -1,0 +1,30 @@
+{
+  "name": "anticoag-interaction-bot",
+  "version": "1.0.0",
+  "description": "**HemoGuard AI** là giải pháp phần mềm chuyên sâu hỗ trợ cán bộ y tế (Bác sĩ, Dược sĩ lâm sàng, Điều dưỡng) và bệnh nhân tra cứu, phát hiện và cảnh báo sớm các tương tác nguy hiểm liên quan đến **thuốc chống đông máu** (Anticoagulants).",
+  "main": "app.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^18.0.10",
+    "lucide-react": "^1.76.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^3.4.1"
+  }
+}
